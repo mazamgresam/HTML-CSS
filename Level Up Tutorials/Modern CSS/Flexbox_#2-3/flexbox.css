@@ -1,0 +1,27 @@
+.container {
+  border: dashed 2px red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.container > div {
+  background: #373142;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border: solid 1px red;
+}
+.container > div:nth-child(2) {
+  height: 150px;
+  flex: 0 1 auto;
+}
+.container > div:nth-child(3) {
+  flex-grow: 3;
+  height: 150px;
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=flexbox.css.map */
